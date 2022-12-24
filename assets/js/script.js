@@ -128,6 +128,41 @@ function game(userInput) {
             //console.log('computer won')
             uptadeScore(computer)
         }
+    } else if (userChoice === scissors) {
+        if (computerChoice === lizard) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else if (computerChoice === paper) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else {
+            //console.log('computer won')
+            uptadeScore(computer)
+        }
+    } else if (userChoice === lizard) {
+        if (computerChoice === paper) {
+             //console.log('user won')
+             uptadeScore(user)
+        } else if (computerChoice === spock) {
+             //console.log('user won')
+             uptadeScore(user)
+        } else {
+            //console.log('computer won')
+            uptadeScore(computer)
+        }
+    } else if (userChoice === spock) {
+        if (computerChoice === rock) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else if (computerChoice === scissors) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else {
+            //console.log('computer won')
+            uptadeScore(computer)
+        }
+    } else {
+        console.log('Error')
     }
 }
 
