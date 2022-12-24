@@ -9,6 +9,8 @@
 body {
     font-family:'Noto Sans', sans-serif;
     background-color: #DF9729;
+    background: url(../image/background.jpg) no-repeat;
+    background-size: cover;
 }
 
 /* Header */
