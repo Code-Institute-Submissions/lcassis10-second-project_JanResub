@@ -40,7 +40,35 @@ function uptadeScore(who) {
     showWinMessage(who);
 }
 
-function uptadeImageChoice() {
+/**
+ *  Function that will change the image when the user click on the selected button
+ */
+function uptadeImageChoice(who, choice) {
+    //console.log(`Uptade image: ${choice}`)
+    const paperSrc = './assets/image/paper.png'
+    const rockSrc = './assets/image/rock.png'
+    const scissorsSrc = './assets/image/scissors.png'
+    const lizardSrc = './assets/image/lizard.png'
+    const spockSrc = './assets/image/spock.png'
+    let choiceSelected = ''
+
+    switch (choice) {
+        case paper:
+            choiceSelected = paperSrc
+            break;
+        case rock:
+            choiceSelected = rockSrc
+            break;
+        case scissors:
+            choiceSelected = scissorsSrc
+            break;
+        case lizard:
+            choiceSelected = lizardSrc
+            break;
+        case spock:
+            choiceSelected = spockSrc
+            break;
+    }
 
 }
 
