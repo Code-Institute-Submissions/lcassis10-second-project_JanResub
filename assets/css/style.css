@@ -65,3 +65,17 @@ button:hover {
 button:active {
     background-color: red;
 }
+
+/* Game area section */
+
+#game-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.scores {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
