@@ -92,8 +92,43 @@ function showWinMessage(who) {
     }   
 }
 
-function game() {
-    
+/**
+ *  Function that will compare the choices of the User and the Computer
+ */
+function game(userInput) {
+    const userChoice = userInput.target.innerHTML != "" ? userInput.target.innerHTML.toLowerCase() : ""
+    uptadeImageChoice(user, userChoice)
+    const computerChoice = getComputerChoice()
+    uptadeImageChoice (computer, computerChoice)
+
+    //console.log(`User ${userChoice} x ${computerChoice} Computer`)
+
+    if (userChoice === computerChoice) {
+        const div = document.getElementById('messages')
+        div.innerHTML = 'Tie!'
+    } else if (userChoice === paper) {
+        if (computerChoice === rock) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else if (computerChoice === spock) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else {
+            //console.log('computer won')
+            uptadeScore(computer)
+        }
+    } else if (userChoice === rock) {
+        if (computerChoice === lizard) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else if (computerChoice === scissors) {
+            //console.log('user won')
+            uptadeScore(user)
+        } else {
+            //console.log('computer won')
+            uptadeScore(computer)
+        }
+    }
 }
 
 function getComputerChoice() {
