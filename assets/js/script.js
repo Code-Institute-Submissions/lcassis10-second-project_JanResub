@@ -166,6 +166,21 @@ function game(userInput) {
     }
 }
 
+/**
+ * Function that returns computer choice
+ */
 function getComputerChoice() {
-
+    const randomNumber = Math.floor(Math.random() * 5);
+    switch (randomNumber) {
+        case 0:
+            return rock;
+        case 1:
+            return paper;
+        case 2:
+            return scissors;
+        case 3:
+            return lizard;
+        case 4:
+            return spock; 
+    }
 }
