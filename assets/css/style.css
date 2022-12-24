@@ -63,7 +63,7 @@ button:hover {
 }
 
 button:active {
-    background-color: red;
+    background-color: darkblue;
 }
 
 /* Game area section */
@@ -90,4 +90,17 @@ button:active {
 #user-image {
     height: 280px;
     border-radius: 2%;
+}
+
+/* Computer area */
+
+.computer-area {
+    margin: 25px;
+    text-align: center;
+}
+
+#computer-image {
+    height: 280px;
+    border-radius: 2%;
+    background: none;
 }
