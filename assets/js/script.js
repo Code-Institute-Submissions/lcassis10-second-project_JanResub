@@ -10,7 +10,7 @@ const computer = "computer"
 addGameEventClick()
 
 /**
- * Funtion that scans the HTML buttons and wait for the user to click
+ * Function that scans the HTML buttons and wait for the user to click
  */
 function addGameEventClick() {
     const choice = document.getElementsByClassName("button");
@@ -19,8 +19,25 @@ function addGameEventClick() {
     }
 }
 
-function uptadeScore() {
+/**
+ * Function that change the scores
+ */
+function uptadeScore(who) {
+    //console.log(`Who called the function: ${who == user ? 'User' : 'Computer'}`)
+    const userSpan = document.getElementById('user-score');
+    const computerSpan = document.getElementById('computer-score');
 
+    //User
+    if (userSpan && who == user) {
+        userScore += 1
+        userSpan.textContent = userScore
+        //console.log(`User Score: ${userScore}`)
+    } else if (computerSpan && who == computer) { //Computer
+        computerScore += 1
+        computerSpan.textContent = computerScore
+        //console.log(`User Score: ${computerScore}`)
+    }
+    showWinMessage(who);
 }
 
 function uptadeImageChoice() {
