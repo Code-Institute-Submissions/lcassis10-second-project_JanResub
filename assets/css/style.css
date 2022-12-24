@@ -21,3 +21,47 @@ header {
     text-align: center;
     width: 100%;
 }
+
+/* Choice section */
+
+#messages {
+    text-align: center;
+    font-weight: 850;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+#choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    letter-spacing: 4px; 
+}
+
+#choice > div > h3 {
+    padding-bottom: 15px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: #07D2EB;
+    text-align: center;
+    width: 150px;
+    font-weight: 850;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+button:active {
+    background-color: red;
+}
