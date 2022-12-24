@@ -79,3 +79,15 @@ button:active {
     font-size: 1.5rem;
     padding-bottom: 10px;
 }
+
+/* User area */
+
+.user-area {
+    margin: 25px;
+    text-align: center;
+}
+
+#user-image {
+    height: 280px;
+    border-radius: 2%;
+}
