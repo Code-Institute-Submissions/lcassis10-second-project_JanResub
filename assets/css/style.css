@@ -116,3 +116,46 @@ button:active {
     background-color: black;
     color: white;
 }
+
+/* For screens size from 600px wide and down */
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        font-size: 1.1rem;
+    }
+
+    #choice > div > h3 {
+        font-size: 1.3rem;
+    }
+
+    #choice > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin: 5px;
+    }
+
+    .user-area {
+        margin: 5px;
+    }
+
+    #user-image {
+        height: 200px;
+    }
+
+    .computer-area {
+        margin: 5px;
+    }
+
+    #computer-image {
+        height: 200px;
+    }
+
+    #rules {
+        font-size: 1rem;
+    }
+}
