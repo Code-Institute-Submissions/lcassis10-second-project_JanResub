@@ -9,9 +9,14 @@ const user = "user"
 const computer = "computer"
 addGameEventClick()
 
-
+/**
+ * Funtion that scans the HTML buttons and wait for the user to click
+ */
 function addGameEventClick() {
-
+    const choice = document.getElementsByClassName("button");
+    for (let i = 0; i < choice.length; i++) {
+        choice[i].addEventListener("click", game);
+    }
 }
 
 function uptadeScore() {
