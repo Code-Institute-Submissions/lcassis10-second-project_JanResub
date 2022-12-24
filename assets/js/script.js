@@ -70,10 +70,26 @@ function uptadeImageChoice(who, choice) {
             break;
     }
 
+    //User
+    if (who == user) {
+        const userImg = document.getElementById('user-image');
+        userImg.src = choiceSelected
+    } else if (who == computer) { //Computer
+        const compImg = document.getElementById('computer-image');
+        compImg.src = choiceSelected
+    }
 }
 
-function showWinMessage() {
-    
+/**
+ * Function that chages the winners message
+ */
+function showWinMessage(who) {
+    const div = document.getElementById('messages');
+    if (who == user) {
+        div.innerHTML = 'User WON!'
+    } else if (who == computer) {
+        div.innerHTML = 'Computer WON!'
+    }   
 }
 
 function game() {
