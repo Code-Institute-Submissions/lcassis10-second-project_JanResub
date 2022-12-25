@@ -55,3 +55,40 @@ The game is compatible with any screen size, from cell phones to computer screen
 - The images of each game option were chosen according to the initial image of each player, thus being easy to understand.
 
 - The rules section has been placed in black color and large letters so the user can easily understand why he or the computer won that match.
+
+# Testing
+
+- I tested the game in different browsers and they all work.   
+
+- I tested the game results and are always correct.
+
+- The header, instructions, options and footer text are all readable and easy to understand.
+
+- The colour and fonts are easy to read and accessible by running it through lighthouse in devtools.
+
+![lighthouse](../second-project/assets/image/screenshots/lighthouse.JPG)
+
+### Validator testing
+
+- HTML
+    - No errors were returned when passing through the official W3C validator.
+
+![HTML validator](../second-project/assets/image/screenshots/HTML%20validator.JPG)
+
+- CSS
+    - No errors were returned when passing through the official (Jigsaw) validator.
+
+![CSS validator](../second-project/assets/image/screenshots/CSS%20validator.JPG)
+
+- JavaScript
+    - No errors were found when passing through the official Jshint validator.
+        - The following metrics were returned:
+            - There are 7 functions in this file.
+            - Function with the largest signature take 2 arguments, while the median is 1.
+            - Largest function has 28 statements in it, while the median is 4.
+            - The most complex function has a cyclomatic complexity value of 18 while the median is 5.
+
+# Unfixed Bugs
+
+- No unfixed bugs.
+
