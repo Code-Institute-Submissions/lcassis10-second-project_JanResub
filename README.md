@@ -45,3 +45,13 @@ The game is compatible with any screen size, from cell phones to computer screen
      - The section rules show the rules of the game to the user.
 
 ![Rules area](../second-project/assets/image/screenshots/rules.JPG)
+
+# Design
+
+- The chosen background is an image that constantly appears in the television series "The Big Bang Theory", which created the game and inspired the project.
+
+- The choice of colors was to provide the maximum possible contrast and make it easy for the user to see.
+
+- The images of each game option were chosen according to the initial image of each player, thus being easy to understand.
+
+- The rules section has been placed in black color and large letters so the user can easily understand why he or the computer won that match.
