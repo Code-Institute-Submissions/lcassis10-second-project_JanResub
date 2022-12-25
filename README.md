@@ -92,3 +92,23 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 - No unfixed bugs.
 
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab In the pages section, go to select branch drop-down menu, select Main Once the Main branch has been selected, a link to the site is provided.
+
+- The live link can be found here - https://lcassis10.github.io/second-project/
+
+# Credits
+
+ ### Content
+
+  - When making my project, I was inspired by the Code Institute Rock, Paper, Scissors, Lizard, Spock idea.
+
+  - Font was sourced from Google Fonts https://fonts.google.com/
+
+ ### Media
+
+  - Pictures were taken from the Google Images.
+
