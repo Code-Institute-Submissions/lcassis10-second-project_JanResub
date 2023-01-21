@@ -8,7 +8,7 @@ The game can be played by both adults and children. To start it is very simple, 
 
 The game is compatible with any screen size, from cell phones to computer screens.
 
-![Responsive Web Site](../second-project/assets/image/screenshots/responsive%20design.JPG)
+![Responsive_Web_Site](./assets/image/screenshots/responsive%20design.JPG)
 
 # Features
 
@@ -18,7 +18,7 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 - The header tells the user what game they are playing.
 
-![Header](../second-project/assets/image/screenshots/header.JPG)
+![Header](./assets/image/screenshots/header.JPG)
 
 - __The Game Options__
 
@@ -26,7 +26,7 @@ The game is compatible with any screen size, from cell phones to computer screen
 
     - These options are interactive, and the user can click to make their choice.
 
-![Game Choice](../second-project/assets/image/screenshots/buttons.JPG)
+![Game_Choice](./assets/image/screenshots/buttons.JPG)
 
 - __Game area__
 
@@ -38,13 +38,13 @@ The game is compatible with any screen size, from cell phones to computer screen
 
     - The results ans score are clear to the user, making the game easy to play, understand who won and waht the score is.
 
-![Game Area](../second-project/assets/image/screenshots/game-area.JPG)
+![Game_Area](./assets/image/screenshots/game-area.JPG)
 
 - __Rules area__
 
      - The section rules show the rules of the game to the user.
 
-![Rules area](../second-project/assets/image/screenshots/rules.JPG)
+![Rules_area](./assets/image/screenshots/rules.JPG)
 
 # Design
 
@@ -66,19 +66,19 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 - The colour and fonts are easy to read and accessible by running it through lighthouse in devtools.
 
-![lighthouse](../second-project/assets/image/screenshots/lighthouse.JPG)
+![lighthouse](./assets/image/screenshots/lighthouse.JPG)
 
 ### Validator testing
 
 - HTML
     - No errors were returned when passing through the official W3C validator.
 
-![HTML validator](../second-project/assets/image/screenshots/HTML%20validator.JPG)
+![HTML_validator](./assets/image/screenshots/HTML%20validator.JPG)
 
 - CSS
     - No errors were returned when passing through the official (Jigsaw) validator.
 
-![CSS validator](../second-project/assets/image/screenshots/CSS%20validator.JPG)
+![CSS validator](./assets/image/screenshots/CSS%20validator.JPG)
 
 - JavaScript
     - No errors were found when passing through the official Jshint validator.
