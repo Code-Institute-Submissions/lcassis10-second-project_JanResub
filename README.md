@@ -95,13 +95,9 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 # Testing
 
-- I tested the game in different browsers and they all work.   
+### Lighthouse
 
-- I tested the game results and are always correct.
-
-- The header, instructions, options and footer text are all readable and easy to understand.
-
-- The colour and fonts are easy to read and accessible by running it through lighthouse in devtools.
+- The web page was tested using the Lighthouse feature on the chrome browser giving the following result.
 
 ![lighthouse](./assets/image/screenshots/lighthouse.JPG)
 
@@ -115,15 +111,48 @@ The game is compatible with any screen size, from cell phones to computer screen
 - CSS
     - No errors were returned when passing through the official (Jigsaw) validator.
 
-![CSS validator](./assets/image/screenshots/CSS%20validator.JPG)
+![CSS_validator](./assets/image/screenshots/CSS%20validator.JPG)
 
 - JavaScript
     - No errors were found when passing through the official Jshint validator.
-        - The following metrics were returned:
-            - There are 7 functions in this file.
-            - Function with the largest signature take 2 arguments, while the median is 1.
-            - Largest function has 28 statements in it, while the median is 4.
-            - The most complex function has a cyclomatic complexity value of 18 while the median is 5.
+
+![js_validator](./assets/image/screenshots/js-validator.JPG)
+
+- WAVE Web Accessibility Evaluation Tool
+
+    - The WAVE tool was used to test the page for accessibility.
+
+![wave_validator](./assets/image/screenshots/wave-validator.JPG)
+
+- I decided to check the webpage in two other accessibility checkers namely color.a11y.com and audit.deque.com. Both of these sites reported no errors.
+
+![color_a11_validator](./assets/image/screenshots/color-a11-validator.JPG)
+
+![deque_validator](./assets/image/screenshots/deque-validator.JPG)
+
+### Responsiveness
+
+ - Media queries based on screen width were used to ensure the page displayed correctly across a range of screen sizes. the Chrome and Edge browsers were used to test responsiveness. I also used the device specific tool within these browsers to test a number of devices representng a wide range of device types.
+The results are given below.
+
+  |Device               |Result                       |
+  |---------------------|-----------------------------|
+  | Iphone SE           | Displays ok                 |
+  | Iphone XR           | Displays ok                 | 
+  | Iphone 12 pro       | Displays ok                 | 
+  | iPhone 6/7/8        | Displays ok                 | 
+  | Ipad Mini           | Displays ok                 |
+  | Ipad Air            | Displays ok                 | 
+  | Galaxy Fold         | Displays ok                 |
+  | Surface Pro 7       | Displays ok                 |
+  | Surface Duo         | Displays ok                 | 
+  | Samsumg Galaxy A51  | Displays ok                 | 
+  | Nest Hub            | Displays ok                 | 
+  | Nest Hub Max        | Displays ok                 |
+
+### Game results
+
+ - I tested the game results and are always correct.
 
 # Unfixed Bugs
 
