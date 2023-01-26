@@ -68,6 +68,10 @@ button:active {
     background-color: darkblue;
 }
 
+#buttons-div {
+    text-align: center;
+}
+
 /* Game area section */
 
 #game-area {
@@ -122,7 +126,7 @@ button:active {
 @media screen and (max-width: 600px) {
     
     header {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     #choice > div > h3 {
@@ -137,6 +141,17 @@ button:active {
 
     .button {
         margin: 5px;
+        width: 110px;
+        letter-spacing: 1px;
+        padding: 8px;
+    }
+
+    #messages {
+        padding: 5px;
+    }
+
+    .scores {
+        font-size: 1rem;
     }
 
     .user-area {
@@ -144,7 +159,7 @@ button:active {
     }
 
     #user-image {
-        height: 200px;
+        height: 150px;
     }
 
     .computer-area {
@@ -152,7 +167,7 @@ button:active {
     }
 
     #computer-image {
-        height: 200px;
+        height: 150px;
     }
 
     #rules {

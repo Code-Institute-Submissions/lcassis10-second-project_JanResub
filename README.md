@@ -93,7 +93,6 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 ![game_options](./assets/image/screenshots/game-options.JPG)
 
-
 # Testing
 
 - I tested the game in different browsers and they all work.   
