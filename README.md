@@ -48,13 +48,51 @@ The game is compatible with any screen size, from cell phones to computer screen
 
 # Design
 
-- The chosen background is an image that constantly appears in the television series "The Big Bang Theory", which created the game and inspired the project.
+- Color Scheme:
 
-- The choice of colors was to provide the maximum possible contrast and make it easy for the user to see.
+   - I trialled many different color palettes whilst building the game and settled on lighter colors which makes a good contrast with the orange of the background image
+ that show the idea of ​​a game. The choice of colors was to provide the maximum possible contrast and make it easy for the user to see. The rules section has been placed in black color and large letters so the user can easily understand why he/she or the computer won that match.
+
+### #0000
+
+ ![#0000](./assets/image/screenshots/%230000.JPG)
+
+### #07D2EB
+
+ ![#07D2EB](./assets/image/screenshots/%2307D2EB.JPG)
+
+### #00008B
+
+ ![#00008B](./assets/image/screenshots/%2300008B.JPG)
+
+### #ADFF2F
+
+ ![#ADFF2F](./assets/image/screenshots/%23adff2f.JPG)
+
+### #DF9729
+
+ ![#DF9729](./assets/image/screenshots/%23DF9729.JPG)
+
+### #FFFFF
+
+ ![#FFFFF](./assets/image/screenshots/%23FFFFF.JPG)
+
+- Background
+
+  - The chosen background is an image that constantly appears in the television series "The Big Bang Theory", which created the game and inspired the project.
+
+![background_image](./assets/image/background.jpg)
+
+- Typography
+
+  - I choose 'Noto Sans' as the font for the site. It is a big bold type that stands out from the background well and is easy to read.
+
+![noto_sans](./assets/image/screenshots/font.JPG)
 
 - The images of each game option were chosen according to the initial image of each player, thus being easy to understand.
 
-- The rules section has been placed in black color and large letters so the user can easily understand why he or the computer won that match.
+![game_options](./assets/image/screenshots/game-options.JPG)
+
 
 # Testing
 
